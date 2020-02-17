@@ -13,8 +13,9 @@ export default class Detail extends Component {
         } = pokes;
 
         return (
+    <div>
         <li>
-            <div>
+            <div className = "detail-item">
                     <p>Name: { pokemon }</p>
                     <p><img src={ url_image } alt={ url_image }/></p>
                     <p>Hp: { hp }</p>
@@ -22,6 +23,7 @@ export default class Detail extends Component {
                     <p>Defense: { defense }</p>
             </div>
         </li>
+    </div>
         )
     }
 }
