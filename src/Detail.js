@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'; 
-
+import './Detail.css';
 export default class Detail extends Component {
     render() {
         const { pokes } = this.props;

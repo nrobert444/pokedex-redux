@@ -15,6 +15,9 @@ export default class App extends Component {
         return (
             <Router>
                 <div>
+                <header className="header-stuff">
+                   <h2>Pokedex</h2>
+                </header>
                     <Link className= "link-space" to="/">Home</Link>
                     <Link to="/about/a">About Me</Link>
                     <Switch>

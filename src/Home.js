@@ -37,9 +37,6 @@ export default class Home extends Component {
     render() {
         return (
         <div className="App">
-          <header className="header-stuff">
-              <h2>Pokedex</h2>
-          </header>
             <SearchOption 
                searchQuery={this.state.searchQuery}
                handleSearch={this.handleSearch} 

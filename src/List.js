@@ -21,6 +21,7 @@ export default class List extends Component {
         const { pokemon } = this.state;
 
         return (
+            
             <Detail pokes={ pokemon } />
       );
     }

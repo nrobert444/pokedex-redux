@@ -1,11 +1,10 @@
-  
 import React from 'react';
-import App from './App.js';
+import Detail from './Detail.js';
 import renderer from 'react-test-renderer';
 
-it(' App renders correctly', () => {
+it(' Detail renders correctly', () => {
   const tree = renderer
-    .create(< App />)
+    .create(< Detail />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

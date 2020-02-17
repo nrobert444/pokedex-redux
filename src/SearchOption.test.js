@@ -1,11 +1,10 @@
-  
 import React from 'react';
-import App from './App.js';
+import SearchOption from './SearchOption.js';
 import renderer from 'react-test-renderer';
 
-it(' App renders correctly', () => {
+it(' SearchOption renders correctly', () => {
   const tree = renderer
-    .create(< App />)
+    .create(< SearchOption />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
