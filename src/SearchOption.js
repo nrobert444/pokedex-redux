@@ -6,7 +6,7 @@ export default class SearchOption extends Component {
             <div>
                 <form onSubmit={this.props.handleSearch}>
                     <input 
-                    value={this.props.searchQuery}
+                    value={this.props.searchQuery || ''}
                     onChange={this.props.handleChange}/>
                     <button>Search!</button>
                 </form>
